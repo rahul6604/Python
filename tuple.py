@@ -1,4 +1,5 @@
 a = () #Empty Tuple
+# tuple are mutable
 print(type(a))
 b = (1,5,4,5,4,4)
 print(b.count(4))
