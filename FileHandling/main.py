@@ -8,6 +8,12 @@ text = f.read()
 print(text)
 f.close()
 
+# Note:-
+# read = read full file
+# readline = read first line
+# readlines = read all lines
+
+
 # To read line wise
 f2 = open("note.txt")
 text = f2.readline()
@@ -35,4 +41,16 @@ f4.close()
 
 with open("name","w") as f:
     f.write("Rahul")
+    
+# tell() = returns the current pointing character of the file
+# seek() = changing the pointing character in the file
+
+with open("text.txt","r") as f:
+    print(f.tell())
+    data = f.readline()
+    print(data)
+    f.seek(0)
+    data = f.readline()
+    print(data)
+
     
