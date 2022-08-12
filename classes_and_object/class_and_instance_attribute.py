@@ -8,4 +8,5 @@ class Employee:
 ram = Employee()
 ram.age = 45
 ram.salary = 45000
+ram.Company= "apple"
 ram.showData() #Employee.showData(ram)

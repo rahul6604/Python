@@ -4,7 +4,7 @@ class Father:
 class Mother:
     name = "Shruti"
     strength = 57
-class Son(Father,Mother):
+class Son(Father,Mother): #First Parameter has priority over second one
     name  = "ram"
 
 f = Father()
