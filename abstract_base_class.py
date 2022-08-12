@@ -8,4 +8,5 @@ class square(Shape):
         return 4
 sq = square()
 print(sq.Side())
+# x =Shape()  # You cannot make object from ABC (Abstract Base Class)
 # Abstract classes are classes that contain one or more abstract methods. An abstract method is a method that is declared, but contains no implementation. Abstract classes cannot be instantiated, and require subclasses to provide implementations for the abstract methods.
